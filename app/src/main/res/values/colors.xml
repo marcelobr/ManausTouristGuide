@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#0000FA</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#0000FF</color>
+
+    <!-- Background color for app -->
+    <color name="tan_background">#FFF7DA</color>
+
+    <!-- Background color for the most visited category -->
+    <color name="category_most_visited">#FF0000</color>
+
+    <!-- Background color for the restaurant category -->
+    <color name="category_restaurant">#FF0000</color>
+
+    <!-- Background color for the shopping category -->
+    <color name="category_shopping">#FF0000</color>
+
+    <!-- Background color for the square category -->
+    <color name="category_square">#FF0000</color>
+</resources>

@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Guia Turístico de Manaus</string>
+
+    <!-- Category name for most visited [CHAR LIMIT=20] -->
+    <string name="category_most_visited">Mais Visitados</string>
+
+    <!-- Category name for squares [CHAR LIMIT=20] -->
+    <string name="category_squares">Praças</string>
+
+    <!-- Category name for restaurants [CHAR LIMIT=20] -->
+    <string name="category_restaurants">Restaurantes</string>
+
+    <!-- Category name for shoppings [CHAR LIMIT=20] -->
+    <string name="category_shopping">Shopping</string>
+
+    <!-- Names of Points of Interest -->
+    <string name="most_visited_name_1">Teatro Amazonas</string>
+    <string name="most_visited_name_2">Encontro das Águas</string>
+    <string name="most_visited_name_3">Arena da Amazônia</string>
+    <string name="most_visited_name_4">Palácio Rio Negro</string>
+    <string name="most_visited_name_5">Praia da Ponta Negra</string>
+    <string name="most_visited_name_6">Mercado Municipal</string>
+    <string name="most_visited_name_7">Ponte Rio Negro</string>
+    <string name="most_visited_name_8">Praia da Lua</string>
+    <string name="most_visited_name_9">Bosque da Ciência</string>
+    <string name="most_visited_name_10">Jardim Botânico</string>
+    <string name="most_visited_name_11">Parque do Mindu</string>
+
+    <string name="square_name_1">Largo de São Sebastião</string>
+    <string name="square_name_2">Parque Rio Negro</string>
+    <string name="square_name_3">Parque Senador Jefferson Péres</string>
+    <string name="square_name_4">Praça Antônio Bittencourt</string>
+    <string name="square_name_5">Praça Heliodoro Balbi</string>
+
+    <string name="restaurant_name_1">Restaurante Amazônico</string>
+    <string name="restaurant_name_2">Restaurante Banzeiro</string>
+    <string name="restaurant_name_3">Restaurante Bubuia</string>
+    <string name="restaurant_name_4">Restaurante Giratório</string>
+    <string name="restaurant_name_5">Restaurante Flutuante Rainha das Selvas</string>
+
+    <string name="shopping_name_1">Amazonas Shopping</string>
+    <string name="shopping_name_2">Manauara Shopping</string>
+    <string name="shopping_name_3">Ponta Negra Shopping</string>
+    <string name="shopping_name_4">Millennium Shopping</string>
+    <string name="shopping_name_5">Sumaúma Shopping</string>
+    <string name="shopping_name_6">Manaus Via Norte Shopping</string>
+
+    <!-- Description of Points of Interest -->
+
+    <string name="most_visited_description_1">Teatro Amazonas é um teatro brasileiro localizado no largo de São Sebastião, no centro de Manaus, capital do Amazonas, inaugurado em 1896 é a expressão mais significativa da riqueza de Manaus durante o ciclo da borracha. De estilo renascentista entorno de sua estrutura externa com os detalhes únicos na sua cúpula, tornou-se um dos mais conhecidos monumentos do Brasil e consequentemente, um símbolo dos mais proeminentes de Manaus. A Orquestra Filarmônica do Amazonas regularmente ensaia e apresenta dentro do teatro.</string>
+    <string name="most_visited_description_2">Um dos espetáculos naturais mais conhecidos e bonitos de Manaus, o Encontro das Águas ocorre no ponto em que os cursos dos Rios Negro e Solimões se juntam para formar o Rio Amazonas. Devido às grandes diferenças físico-químicas entre os dois rios, suas águas, de cores negra e barrenta, correm paralelamente sem se misturar por vários quilômetros.</string>
+    <string name="most_visited_description_3">A Arena da Amazônia é um estádio de futebol localizado na cidade de Manaus, capital do Amazonas, mesmo local antes ocupado pelo Estádio Vivaldo Lima. O estádio foi construído para ser utilizado como uma das 12 sedes da Copa do Mundo FIFA de 2014 e foi inaugurado em 9 de março de 2014. O arquiteto autor de seu projeto é Ralf Amann do escritório alemão GMP.</string>
+    <string name="most_visited_description_4">Palácio Rio Negro foi sede do governo e residência oficial do governador. Seu nome original era Palacete Scholz, construído pelo alemão Waldemar Scholz, considerado o "Barão da Borracha". Teve o nome alterado para Palácio Rio Negro em 1918 após autorizada a compra pelo governador do Amazonas, Pedro de Alcântara Bacellar.</string>
+    <string name="most_visited_description_5">A Praia da Ponta Negra, é uma praia localizada no bairro da Ponta Negra, na Zona Oeste da cidade de Manaus, às margens do rio Negro. Está localizada a 13 km do Centro da capital amazonense.</string>
+    <string name="most_visited_description_6">O Mercado Municipal Adolpho Lisboa é um dos mais importantes centros de comercialização de produtos regionais.Inspirado no Mercado de Les Halles de Paris, foi o segundo mercado construído no Brasil, inaugurado em 1882. Em estilo Art Noveau, sua estrutura é em ferro fundido e vidros coloridos. Popularmente conhecido como mercadão, é a principal porta de entrada da produção pesqueira e rural do Estado.</string>
+    <string name="most_visited_description_7">A Ponte Jornalista Phelippe Daou ou, popularmente, Ponte Rio Negroé uma ponte estaiada que atravessa o Rio Negro, no estado do Amazonas. Ela conecta os municípios de Manaus e Iranduba, fazendo parte da rodovia Manoel Urbano (AM-070). Inaugurada em 24 de outubro de 2011, é a única ponte que atravessa o trecho brasileiro do Rio Negro, sendo considerada uma das maiores pontes dessa espécie no Brasil, com 3,6 quilômetros de extensão (3.595 metros).</string>
+    <string name="most_visited_description_8">A Praia da Lua é uma das praias mais frequentadas pelos manauaras. Localizada a menos de 10 minutos de lancha da capital, ela fica exposta durante quase todo o ano, sendo que entre setembro e janeiro (época da vazante) a faixa de areia se torna mais extensa.</string>
+    <string name="most_visited_description_9"> O Bosque da Ciência que é uma área de aproximadamente 13 (treze) hectares, localizado no perímetro urbano da cidade de Manaus na Zona Central - Leste. Projetado e estruturado para fomentar e promover o desenvolvimento do programa de difusão científica e de educação ambiental do INPA, ao mesmo tempo preservando os aspectos da biodiversidade existente no local.</string>
+    <string name="most_visited_description_10">O Jardim Botânico Adolpho Ducke é um jardim botânico brasileiro, localizado na cidade de Manaus, no estado do Amazonas, no bairro Cidade de Deus, zona norte. É o maior jardim botânico do mundo dentro de área urbana.</string>
+    <string name="most_visited_description_11">O parque municipal do Mindu, com 42,05 ha (quase 300ha a menos que o Central Park de Nova York)de biodiversidade no coração de Manaus e a 15 minutos do centro da cidade, é uma das quatro Unidades de Conservação , vitrine das espécies de flora, fauna e outros elementos do ecossistema amazônico.</string>
+
+    <string name="square_description_1">Largo de São Sebastião é uma praça no centro de Manaus que reúne grandes monumentos da história manauara, como a Igreja de São Sebastião, o Palácio da Justiça e o consagrado Teatro Amazonas.</string>
+    <string name="square_description_2">Localizado na Orla do bairro de São Raimundo, o Parque Rio Negro é um espaço público, de acesso gratuito, que oferece uma programação diversificada.</string>
+    <string name="square_description_3">O Parque Senador Jefferson Péres é um dos ambientes mais relaxantes e agradáveis do Centro de Manaus. A área é extensa. São 53,4 mil metros quadrados e mais de 1.200 árvores plantadas. O parque leva este nome em homenagem a um dos mais proeminentes políticos do Amazonas, Jefferson Péres, já falecido.</string>
+    <string name="square_description_4">A Praça Antônio Bittencourt, popularmente conhecida como Praça do Congresso, faz referência direta ao 1º Congresso Eucarístico Diocesano de Manaus e a comemoração dos cinquenta anos de criação do Bispado do Amazonas, realizado nesta praça em junho de 1942.</string>
+    <string name="square_description_5">A Praça Heliodo Balbi, mais conhecida pela população local como Praça da Polícia, recebeu este nome devido às apresentações da banda da Polícia da Amazonas no local.</string>
+
+    <string name="restaurant_description_1">No Restaurante Amazônico o cliente desfruta de uma experiência gastronômica singular, com a perfeita combinação de temperos, frutas e peixes da Amazônia, sem deixar de lado a farinha do Uarini. Diversos pratos traduzem a simplicidade e o sabor regional, como a Matrinxã recheada, o filé de Pirarucu com queijo coalho e banana frita, a costela de Tambaqui empanada na farinha do Uarini, sem deixar de lado um conjunto de entradas e sobremesas perfeitas, tanto para iniciar a refeição quanto para finalizar com “chave de ouro”.</string>
+    <string name="restaurant_description_2">O Banzeiro Cozinha Amazônica oferece o que há de melhor na culinária amazônica e suas principais receitas como a costela de tambaqui, o filé de pirarucu ou tucunaré são preparados de forma única e exclusiva, com sabores genuínos do Chef.</string>
+    <string name="restaurant_description_3">O Bubuia tem a proposta de ser o porto seguro daqueles que procuram ambientes temáticos para viver experiências sensoriais através de uma culinária distinta. Assim, o restaurante é regional, pero no mucho. Apenas temperado com bom gosto, elegância e recheado de delícias à todos aqueles que decidirem neste porto atracar!</string>
+    <string name="restaurant_description_4">O Restaurante Giratório fica no topo do hotel Taj Mahal, é um dos pontos turísticos da cidade, a estrutura do restaurante fica em cima de uma plataforma giratória que leva 45 minutos para girar sobre o seu próprio eixo. Nele você pode ter uma bela vista em 360º do centro da cidade, incluindo o Teatro Amazonas e arredores, o que lhe garantirá belas fotos.</string>
+    <string name="restaurant_description_5">O Restaurante Flutuante Rainha das Selvas é ideal para quem procura uma experiência única de imersão gastronômica na selva amazônica, o restaurante fica literalmente flutuando sobre as águas do rio amazonas, servindo dezenas de pratos que trazem o melhor da região amazônica com deliciosos peixes e saladas. Comida simples e saborosa.</string>
+
+    <string name="shopping_description_1">O Amazonas Shopping Center foi o primeiro shopping center da cidade de Manaus e foi inaugurado em 07 de novembro de 1991. É reconhecido como um marco divisor de águas no desenvolvimento do comércio local, sendo o responsável por uma grande revolução nos parâmetros e conceitos antes estabelecidos pelo público consumidor no que se refere à qualidade de produtos e serviços.</string>
+    <string name="shopping_description_2">Homenageando a fauna, flora e cultura amazonense, O Manauara Shopping é decorado por grafismos inspirados na Floresta Amazônica; seus mobiliários, pisos, forros e luminárias possuem acabamento com cores e materiais do artesanato local. O “Encontro das Águas” dos rios Negro e Solimões, uma das maiores atrações turísticas locais, inspirou o logotipo do empreendimento e está representado na cobertura do edifício, facilmente notada quando vista do alto.</string>
+    <string name="shopping_description_3">O Shopping Ponta Negra foi inaugurado em 7 de agosto de 2013, com a proposta de levar ao público de Manaus uma inovadora e diferenciada concepção de centro de compras e lazer. Desde então, esse moderno espaço vem sendo reconhecido como referência nas áreas de moda, serviços e entretenimento, além de dispor de um segmento de gastronomia que atende aos mais exigentes gostos.</string>
+    <string name="shopping_description_4">Inaugurado em 7 de dezembro de 2004, o Millennium Shopping é um complexo empresarial, comercial e hoteleiro formado por um shopping center e três torres. Localizado no coração dos negócios de Manaus, o Millennium Shopping possui 100 lojas e oito salas de cinema tipo stadium da rede Cinépolis, sendo duas salas 3D e uma Vip, todas com instalações de última geração.</string>
+    <string name="shopping_description_5">Inaugurado em 27 de novembro de 2014, está localizado próximo a primeira Unidade de Conservação do Amazonas, o Parque Estadual Sumaúma. O Sumaúma Park Shopping foi criado com o objetivo de oferecer aos moradores e frequentadores da região mais populosa de Manaus, um centro de compras com serviços de qualidade, entretenimento, lazer, conforto e, tudo isso, aliado a segurança.</string>
+    <string name="shopping_description_6">Inaugurado dia 28.11.14, o shopping Manaus ViaNorte está situado na região norte, para onde apontam todos os vetores de crescimento da cidade. Um lugar escolhido estrategicamente, devido ao enorme potencial econômico da região. No projeto arquitetônico moderno, foram utilizados elementos da natureza amazonense alinhado às melhores práticas de sustentabilidade. O ViaNorte é o 1º shopping da região Norte com o certificado AQUA. Um projeto sustentável, de alta qualidade ambiental, que trará benefícios e qualidade para toda a população.</string>
+
+</resources>

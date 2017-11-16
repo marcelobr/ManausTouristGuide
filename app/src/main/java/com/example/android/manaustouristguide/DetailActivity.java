@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+
 public class DetailActivity extends AppCompatActivity {
 
     @Override
@@ -18,7 +20,10 @@ public class DetailActivity extends AppCompatActivity {
         PoI poi = (PoI) intent.getSerializableExtra("poi");
 
         ImageView imagePoI = (ImageView) findViewById(R.id.list_item_image);
-        imagePoI.setImageResource(poi.getmImageResourceId());
+        Glide.with(this)
+                .load(poi.getmImageResourceId())
+                .into(imagePoI);
+        //imagePoI.setImageResource(poi.getmImageResourceId());
 
         TextView textPoI = (TextView) findViewById(R.id.list_item_text);
         textPoI.setText(poi.getmNameOfPoI());

@@ -11,6 +11,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+
 import java.util.ArrayList;
 
 /*
@@ -63,7 +65,10 @@ public class PoIAdapter extends ArrayAdapter<PoI> {
 
         ImageView iconView = (ImageView) listItemView.findViewById(R.id.list_item_icon);
 
-        iconView.setImageResource(currentPoI.getmImageResourceId());
+        Glide.with(getContext())
+                .load(currentPoI.getmImageResourceId())
+                .into(iconView);
+        //iconView.setImageResource(currentPoI.getmImageResourceId());
 
         iconView.setVisibility(View.VISIBLE);
 

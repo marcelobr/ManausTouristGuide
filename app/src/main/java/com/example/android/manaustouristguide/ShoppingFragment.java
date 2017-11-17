@@ -9,7 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -30,15 +29,15 @@ public class ShoppingFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.list_category, container, false);
 
         // Create a list of PoIs
-        final ArrayList<PoI> pois = new ArrayList<PoI>();
-        pois.add(new PoI(getString(R.string.shopping_name_1), getString(R.string.shopping_description_1), R.drawable.amazonas_shopping));
-        pois.add(new PoI(getString(R.string.shopping_name_2), getString(R.string.shopping_description_2), R.drawable.manauara_shopping));
-        pois.add(new PoI(getString(R.string.shopping_name_3), getString(R.string.shopping_description_3), R.drawable.ponta_negra_shopping));
-        pois.add(new PoI(getString(R.string.shopping_name_4), getString(R.string.shopping_description_4), R.drawable.millennium_shopping));
-        pois.add(new PoI(getString(R.string.shopping_name_5), getString(R.string.shopping_description_5), R.drawable.sumauma_shopping));
-        pois.add(new PoI(getString(R.string.shopping_name_6), getString(R.string.shopping_description_6), R.drawable.via_norte_shopping));
+        final ArrayList<PointOfInterest> pointsOfInterest = new ArrayList<PointOfInterest>();
+        pointsOfInterest.add(new PointOfInterest(getString(R.string.shopping_name_1), getString(R.string.shopping_description_1), R.drawable.amazonas_shopping));
+        pointsOfInterest.add(new PointOfInterest(getString(R.string.shopping_name_2), getString(R.string.shopping_description_2), R.drawable.manauara_shopping));
+        pointsOfInterest.add(new PointOfInterest(getString(R.string.shopping_name_3), getString(R.string.shopping_description_3), R.drawable.ponta_negra_shopping));
+        pointsOfInterest.add(new PointOfInterest(getString(R.string.shopping_name_4), getString(R.string.shopping_description_4), R.drawable.millennium_shopping));
+        pointsOfInterest.add(new PointOfInterest(getString(R.string.shopping_name_5), getString(R.string.shopping_description_5), R.drawable.sumauma_shopping));
+        pointsOfInterest.add(new PointOfInterest(getString(R.string.shopping_name_6), getString(R.string.shopping_description_6), R.drawable.via_norte_shopping));
 
-        PoIAdapter adapter = new PoIAdapter(getActivity(), pois, R.color.category_shopping);
+        PointOfInterestAdapter adapter = new PointOfInterestAdapter(getActivity(), pointsOfInterest, R.color.category_shopping);
 
         ListView listView = (ListView) rootView.findViewById(R.id.list);
 
@@ -47,10 +46,10 @@ public class ShoppingFragment extends Fragment {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                PoI poi = pois.get(position);
+                PointOfInterest poi = pointsOfInterest.get(position);
 
                 Intent i = new Intent(getActivity(), DetailActivity.class);
-                i.putExtra("poi", poi);
+                i.putExtra("pointOfInterest", poi);
                 startActivity(i);
             }
         });

@@ -17,18 +17,17 @@ public class DetailActivity extends AppCompatActivity {
 
         // Get the Intent that started this activity and extract the object
         Intent intent = getIntent();
-        PoI poi = (PoI) intent.getSerializableExtra("poi");
+        PointOfInterest pointOfInterest = (PointOfInterest) intent.getSerializableExtra("pointOfInterest");
 
         ImageView imagePoI = (ImageView) findViewById(R.id.list_item_image);
         Glide.with(this)
-                .load(poi.getmImageResourceId())
+                .load(pointOfInterest.getmImageResourceId())
                 .into(imagePoI);
-        //imagePoI.setImageResource(poi.getmImageResourceId());
 
         TextView textPoI = (TextView) findViewById(R.id.list_item_text);
-        textPoI.setText(poi.getmNameOfPoI());
+        textPoI.setText(pointOfInterest.getmNameOfPoI());
 
         TextView descriptionPoI = (TextView) findViewById(R.id.list_item_description);
-        descriptionPoI.setText(poi.getmDescriptionOfPoI());
+        descriptionPoI.setText(pointOfInterest.getmDescriptionOfPoI());
     }
 }

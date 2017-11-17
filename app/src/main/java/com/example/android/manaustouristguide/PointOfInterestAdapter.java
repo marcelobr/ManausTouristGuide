@@ -16,13 +16,13 @@ import com.bumptech.glide.Glide;
 import java.util.ArrayList;
 
 /*
-* {@link PoIAdapter} is an {@link ArrayAdapter} that can provide the layout for each list
-* based on a data source, which is a list of {@link PoI} objects.
+* {@link PointOfInterestAdapter} is an {@link ArrayAdapter} that can provide the layout for each list
+* based on a data source, which is a list of {@link PointOfInterest} objects.
 * */
 
-public class PoIAdapter extends ArrayAdapter<PoI> {
+public class PointOfInterestAdapter extends ArrayAdapter<PointOfInterest> {
 
-    /** Resource ID for the background color for this list of PoI */
+    /** Resource ID for the background color for this list of PointOfInterest */
     private int mColorResourceId;
 
     /**
@@ -31,10 +31,10 @@ public class PoIAdapter extends ArrayAdapter<PoI> {
      * to populate into the lists.
      *
      * @param context The current context. Used to inflate the layout file.
-     * @param pois A List of PoI objects to display in a list
+     * @param pois A List of PointOfInterest objects to display in a list
      * @param colorResourceId is the resource ID for the background color for this list of PoIs
      */
-    public PoIAdapter(@NonNull Context context, ArrayList<PoI> pois, int colorResourceId) {
+    public PointOfInterestAdapter(@NonNull Context context, ArrayList<PointOfInterest> pois, int colorResourceId) {
         super(context, 0, pois);
         this.mColorResourceId = colorResourceId;
     }
@@ -57,18 +57,17 @@ public class PoIAdapter extends ArrayAdapter<PoI> {
             listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_category_item, parent, false);
         }
 
-        // Get the {@link PoI} object located at this position in the list
-        PoI currentPoI = getItem(position);
+        // Get the {@link PointOfInterest} object located at this position in the list
+        PointOfInterest currentPointOfInterest = getItem(position);
 
         TextView nameItemTextView = (TextView) listItemView.findViewById(R.id.poi_text_view);
-        nameItemTextView.setText(currentPoI.getmNameOfPoI());
+        nameItemTextView.setText(currentPointOfInterest.getmNameOfPoI());
 
         ImageView iconView = (ImageView) listItemView.findViewById(R.id.list_item_icon);
 
         Glide.with(getContext())
-                .load(currentPoI.getmImageResourceId())
+                .load(currentPointOfInterest.getmImageResourceId())
                 .into(iconView);
-        //iconView.setImageResource(currentPoI.getmImageResourceId());
 
         iconView.setVisibility(View.VISIBLE);
 

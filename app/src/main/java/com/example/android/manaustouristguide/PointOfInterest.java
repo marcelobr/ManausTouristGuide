@@ -3,10 +3,10 @@ package com.example.android.manaustouristguide;
 import java.io.Serializable;
 
 /**
- * Represents the Points of Interest (PoI) present in the tourist guide.
+ * Represents the Points of Interest (PointOfInterest) present in the tourist guide.
  */
 
-public class PoI implements Serializable {
+public class PointOfInterest implements Serializable {
 
     private static final int NO_IMAGE_PROVIDED = -1;
 
@@ -20,22 +20,22 @@ public class PoI implements Serializable {
     private int mImageResourceId = NO_IMAGE_PROVIDED;
 
     /**
-     * Create a new PoI object.
+     * Create a new PointOfInterest object.
      * @param mNameOfPoI is the name of point of interest
      * @param mDescriptionOfPoI is the description of point of interest
      */
-    public PoI (String mNameOfPoI, String mDescriptionOfPoI) {
+    public PointOfInterest(String mNameOfPoI, String mDescriptionOfPoI) {
         this.mNameOfPoI = mNameOfPoI;
         this.mDescriptionOfPoI = mDescriptionOfPoI;
     }
 
     /**
-     * Create a new PoI object.
+     * Create a new PointOfInterest object.
      * @param mNameOfPoI is the name of point of interest
      * @param mDescriptionOfPoI is the description of point of interest
-     * @param mImageResourceId is the drawable resource ID for the image associated with the PoI
+     * @param mImageResourceId is the drawable resource ID for the image associated with the PointOfInterest
      */
-    public PoI (String mNameOfPoI, String mDescriptionOfPoI, int mImageResourceId) {
+    public PointOfInterest(String mNameOfPoI, String mDescriptionOfPoI, int mImageResourceId) {
         this.mNameOfPoI = mNameOfPoI;
         this.mDescriptionOfPoI = mDescriptionOfPoI;
         this.mImageResourceId = mImageResourceId;

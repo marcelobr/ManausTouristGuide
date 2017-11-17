@@ -10,18 +10,25 @@ public class PointOfInterest implements Serializable {
 
     private static final int NO_IMAGE_PROVIDED = -1;
 
-    /** Name of Point of Interest */
+    /**
+     * Name of Point of Interest
+     */
     private String mNameOfPoI;
 
-    /** Description of Point of Interest */
+    /**
+     * Description of Point of Interest
+     */
     private String mDescriptionOfPoI;
 
-    /** Image resource ID of Point of Interest */
+    /**
+     * Image resource ID of Point of Interest
+     */
     private int mImageResourceId = NO_IMAGE_PROVIDED;
 
     /**
      * Create a new PointOfInterest object.
-     * @param mNameOfPoI is the name of point of interest
+     *
+     * @param mNameOfPoI        is the name of point of interest
      * @param mDescriptionOfPoI is the description of point of interest
      */
     public PointOfInterest(String mNameOfPoI, String mDescriptionOfPoI) {
@@ -31,9 +38,10 @@ public class PointOfInterest implements Serializable {
 
     /**
      * Create a new PointOfInterest object.
-     * @param mNameOfPoI is the name of point of interest
+     *
+     * @param mNameOfPoI        is the name of point of interest
      * @param mDescriptionOfPoI is the description of point of interest
-     * @param mImageResourceId is the drawable resource ID for the image associated with the PointOfInterest
+     * @param mImageResourceId  is the drawable resource ID for the image associated with the PointOfInterest
      */
     public PointOfInterest(String mNameOfPoI, String mDescriptionOfPoI, int mImageResourceId) {
         this.mNameOfPoI = mNameOfPoI;
@@ -51,9 +59,5 @@ public class PointOfInterest implements Serializable {
 
     public int getmImageResourceId() {
         return mImageResourceId;
-    }
-
-    public boolean hasImage() {
-        return mImageResourceId != NO_IMAGE_PROVIDED;
     }
 }
